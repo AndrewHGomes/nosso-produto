@@ -2,6 +2,7 @@
   --primaria: #8b4513;
   --secundaria: #ffa07a;
   --complementar: #f5deb3;
+  --padding-section: 3em;
 }
 
 * {
@@ -78,7 +79,7 @@ header button:hover {
 
 #banner-section {
   background-color: var(--complementar);
-  padding: 3em;
+  padding: var(--padding-section);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -116,7 +117,7 @@ header button:hover {
 
 #clientes-section {
   background-color: var(--secundaria);
-  padding: 3em;
+  padding: var(--padding-section);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,7 +154,7 @@ header button:hover {
 #servicos-section {
   background-color: var(--complementar);
   color: var(--primaria);
-  padding: 3em;
+  padding: var(--padding-section);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -190,6 +191,14 @@ header button:hover {
   transition: 0.6s;
 }
 
+.accordion .cima {
+  transform: rotate(90deg);
+}
+
+.accordion .baixo {
+  transform: rotate(-90deg);
+}
+
 .accordion:hover {
   transition: 0.6s;
   background-color: var(--secundaria);
@@ -207,7 +216,7 @@ header button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3em;
+  padding: var(--padding-section);
   display: flex;
 }
 
@@ -236,11 +245,29 @@ header button:hover {
   justify-content: space-around;
 }
 
+#seta .esquerda {
+  transform: rotate(180deg);
+}
+
 .seta {
-  background-color: var(--complementar);
   border-radius: 5px;
   cursor: pointer;
-  font-weight: bold;
   border: 1px solid;
   padding: 0.5em 1em;
+}
+
+#diferenciais-section {
+  background-color: var(--complementar);
+  color: var(--primaria);
+  padding: var(--padding-section);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+}
+
+.diferenciais {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }

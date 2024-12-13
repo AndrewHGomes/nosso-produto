@@ -8,8 +8,8 @@ const RelatoCliente = ({ foto, nome, relato }) => {
         <p>{relato}</p>
       </figure>
       <div id="seta">
-        <p className="seta">&#8606;</p>
-        <p className="seta">&#8608;</p>
+        <p className="seta esquerda">&#10148;</p>
+        <p className="seta">&#10148;</p>
       </div>
     </div>
   );

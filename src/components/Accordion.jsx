@@ -9,7 +9,11 @@ const Accordion = ({ titulo, texto }) => {
     <div className="accordion" onClick={() => setAtivo(!ativo)}>
       <div className="accordion-titulo">
         <h3>{titulo}</h3>
-        {ativo ? <p>&#8607;</p> : <p>&#8609;</p>}
+        {ativo ? (
+          <p className="baixo">&#10148;</p>
+        ) : (
+          <p className="cima">&#10148;</p>
+        )}
       </div>
       <div className="ativo">{ativo && <p>{texto}</p>}</div>
     </div>
