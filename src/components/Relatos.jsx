@@ -48,17 +48,20 @@ const Relatos = () => {
   return (
     <>
       <section id="relatos-section">
-        <p className="esquerda" onClick={handleSlideMenos}>
-          &#10148;
-        </p>
-        <RelatoCliente
-          img={clientes[indice].url}
-          nome={clientes[indice].nome}
-          descricao={clientes[indice].descricao}
-        />
-        <p className="direita" onClick={handleSlideMais}>
-          &#10148;
-        </p>
+        <h2>O que dizem nossos clientes</h2>
+        <div>
+          <p className="esquerda" onClick={handleSlideMenos}>
+            &#10148;
+          </p>
+          <RelatoCliente
+            img={clientes[indice].url}
+            nome={clientes[indice].nome}
+            descricao={clientes[indice].descricao}
+          />
+          <p className="direita" onClick={handleSlideMais}>
+            &#10148;
+          </p>
+        </div>
       </section>
     </>
   );

@@ -3,8 +3,6 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
-import imgLogo from "../assets/daffari.jpeg";
-
 const Footer = () => {
   return (
     <footer>
@@ -29,9 +27,23 @@ const Footer = () => {
         </ul>
       </div>
       <h4>Daffari Sistemas de Informação &copy; 2025</h4>
-      <a href="/">
-        <img src={imgLogo} alt="Logo Empresa" />
-      </a>
+      <div>
+        <p>Fale conosco</p>
+        <form>
+          <label>
+            <span>Nome completo:</span>
+            <input type="text" />
+          </label>
+          <label>
+            <span>Contato:</span>
+            <input type="text" />
+          </label>
+          <label>
+            <span>Assunto:</span>
+            <textarea name="" id=""></textarea>
+          </label>
+        </form>
+      </div>
     </footer>
   );
 };

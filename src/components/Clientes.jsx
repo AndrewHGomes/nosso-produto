@@ -24,7 +24,7 @@ const clientes = [
   {
     id: 2,
     url: donarosa,
-    titulo: "Pastelvis",
+    titulo: "Donarosa",
   },
   {
     id: 3,
@@ -91,9 +91,12 @@ const clientes = [
 const Clientes = () => {
   return (
     <section id="clientes-section">
-      {clientes.map(({ id, url, titulo }) => (
-        <LogoCliente key={id} logo={url} titulo={titulo} />
-      ))}
+      <h2>Nossos Clientes</h2>
+      <div>
+        {clientes.map(({ id, url, titulo }) => (
+          <LogoCliente key={id} logo={url} titulo={titulo} />
+        ))}
+      </div>
     </section>
   );
 };
