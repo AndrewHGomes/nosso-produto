@@ -1,16 +1,13 @@
 /* eslint-disable react/prop-types */
-const RelatoCliente = ({ foto, nome, relato }) => {
+
+const RelatoCliente = ({ img, nome, descricao }) => {
   return (
     <div>
-      <figure className="img-relato">
-        <img src={foto} alt="relato1" />
+      <figure>
+        <img src={img} alt={nome} />
         <figcaption>{nome}</figcaption>
-        <p>{relato}</p>
+        <p>{descricao}</p>
       </figure>
-      <div id="seta">
-        <p className="seta esquerda">&#10148;</p>
-        <p className="seta">&#10148;</p>
-      </div>
     </div>
   );
 };

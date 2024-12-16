@@ -26,14 +26,16 @@ footer {
   justify-content: space-between;
 }
 
-header img {
+header img,
+footer img {
   box-shadow: 2px 2px 6px var(--secundaria);
   width: 3em;
   border-radius: 5px;
   transition: 0.6s;
 }
 
-header img:hover {
+header img:hover,
+footer img:hover {
   transform: scale(1.5);
 }
 
@@ -50,14 +52,16 @@ footer ul {
   list-style: none;
 }
 
-nav ul li {
+nav ul li a {
+  text-decoration: none;
+  color: var(--complementar);
   padding: 0.5em;
   border-bottom: 1px solid transparent;
   cursor: pointer;
   transition: 0.6s;
 }
 
-nav ul li:hover {
+nav ul li a:hover {
   border-color: var(--complementar);
 }
 
@@ -220,40 +224,33 @@ header button:hover {
   display: flex;
 }
 
-#relatos-section .img-relato {
-  display: block;
-  width: 20em;
+#relatos-section figure {
+  width: 18em;
   border-radius: 10px;
-  text-align: center;
 }
 
 #relatos-section img {
   width: 100%;
-  border-radius: 10px;
-  margin-bottom: 0.5em;
+  height: 200px;
+  border-radius: 50%;
 }
 
-.img-relato p {
-  line-height: 1.5em;
-  letter-spacing: 0.1em;
+#relatos-section figure figcaption,
+#relatos-section figure p {
+  text-align: center;
+  padding: 0.5em;
+}
+
+#relatos-section .esquerda,
+#relatos-section .direita {
+  margin: 2em;
   padding: 1em;
-  width: 100%;
-}
-
-#seta {
-  display: flex;
-  justify-content: space-around;
-}
-
-#seta .esquerda {
-  transform: rotate(180deg);
-}
-
-.seta {
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
-  border: 1px solid;
-  padding: 0.5em 1em;
+}
+
+#relatos-section .esquerda {
+  transform: rotate(180deg);
 }
 
 #diferenciais-section {
@@ -270,4 +267,17 @@ header button:hover {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+footer .contatos li {
+  margin-top: 1em;
+}
+
+footer .contatos a {
+  text-decoration: none;
+  color: var(--complementar);
+}
+
+footer .contatos li span {
+  margin-left: 0.5em;
 }
