@@ -3,9 +3,11 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
+import footer from "../styles/Footer.module.css";
+
 const Footer = () => {
   return (
-    <footer>
+    <footer className={footer.footer}>
       <div className="contatos">
         <ul>
           <li>
@@ -26,9 +28,9 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <h4>Daffari Sistemas de Informação &copy; 2025</h4>
+      <h3>Daffari Sistemas de Informação &copy; 2025</h3>
       <div>
-        <p>Fale conosco</p>
+        <h4>Fale conosco</h4>
         <form>
           <label>
             <span>Nome completo:</span>

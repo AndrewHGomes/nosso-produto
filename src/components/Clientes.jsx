@@ -1,4 +1,5 @@
 import LogoCliente from "./LogoCliente";
+import nossosClientes from "../styles/Clientes.module.css";
 
 import pastelvis from "../assets/pastelvis.png";
 import donarosa from "../assets/donarosa.png";
@@ -90,7 +91,7 @@ const clientes = [
 
 const Clientes = () => {
   return (
-    <section id="clientes-section">
+    <section className={nossosClientes.nossosClientes}>
       <h2>Nossos Clientes</h2>
       <div>
         {clientes.map(({ id, url, titulo }) => (

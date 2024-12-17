@@ -1,0 +1,37 @@
+.footer ul,
+.footer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul span {
+  margin-left: 0.3em;
+}
+
+.footer div h4 {
+  margin-bottom: 0.5em;
+}
+
+.footer a,
+.footer ul {
+  text-decoration: none;
+  color: #fff;
+  transition: var(--transicao);
+}
+
+.footer form input,
+.footer form textarea {
+  display: block;
+  padding: 0.4em;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: var(--primaria);
+  font-size: 1em;
+}

@@ -1,8 +1,9 @@
 import imgBanner from "../assets/pizza-banner.jpg";
+import banner from "../styles/Banner.module.css";
 
 const Banner = () => {
   return (
-    <section id="banner-section">
+    <section className={banner.banner}>
       <div>
         <h1>PDV, Delivery e Fiscal</h1>
         <p>

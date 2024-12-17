@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
+import relato from "../styles/Relato.module.css";
 
 const RelatoCliente = ({ img, nome, descricao }) => {
   return (
-    <div>
+    <div className={relato.box}>
       <figure>
         <img src={img} alt={nome} />
         <figcaption>{nome}</figcaption>

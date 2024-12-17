@@ -1,0 +1,18 @@
+.diferencial {
+  background-color: var(--complementar);
+  color: var(--primaria);
+  flex-direction: column;
+  align-items: center;
+}
+
+.diferenciais {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.diferenciais div {
+  display: flex;
+  gap: 1em;
+}

@@ -1,5 +1,6 @@
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Navbar = () => {
@@ -18,7 +19,10 @@ const Navbar = () => {
             <span>Whatsapp</span>
           </a>
         </li>
-        <li>Telefones</li>
+        <li>
+          <FontAwesomeIcon icon={faPhone} />
+          <span>3608-3001</span>
+        </li>
       </ul>
     </nav>
   );

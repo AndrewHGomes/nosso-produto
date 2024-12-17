@@ -1,4 +1,5 @@
 import Accordion from "./Accordion";
+import servicos from "../styles/Servicos.module.css";
 
 const accordion = [
   {
@@ -34,18 +35,14 @@ const accordion = [
 
 const Servicos = () => {
   return (
-    <section id="servicos-section">
-      <div id="servicos-titulo">
-        <h2>
-          Soluções e funcionalidades <br />
-          para controlar seu negócio
-        </h2>
-      </div>
-      <div id="nossos-servicos">
-        {accordion.map(({ id, titulo, texto }) => (
-          <Accordion key={id} titulo={titulo} texto={texto} />
-        ))}
-      </div>
+    <section className={servicos.servicos}>
+      <h2>
+        Soluções e funcionalidades <br />
+        para controlar seu negócio
+      </h2>
+      {accordion.map(({ id, titulo, texto }) => (
+        <Accordion key={id} titulo={titulo} texto={texto} />
+      ))}
     </section>
   );
 };

@@ -1,10 +1,11 @@
 import Navbar from "./Navbar";
+import header from "../styles/Header.module.css";
 
 import imgLogo from "../assets/daffari.jpeg";
 
 const Header = () => {
   return (
-    <header>
+    <header className={header.header}>
       <a href="/">
         <img src={imgLogo} alt="Logo Empresa" />
       </a>

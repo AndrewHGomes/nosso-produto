@@ -1,0 +1,36 @@
+.header img {
+  width: 4em;
+  border-radius: 5px;
+  transition: var(--transicao);
+  border: 1px solid var(--complementar);
+  box-shadow: var(--sombra);
+}
+
+.header img:hover {
+  transform: scale(1.5);
+}
+
+.header nav ul {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+}
+
+.header nav ul li {
+  border-bottom: 1px solid transparent;
+  padding: 0.5em;
+  transition: var(--transicao);
+}
+
+.header nav ul li span {
+  margin-left: 0.3em;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header nav li:hover {
+  border-color: #fff;
+}

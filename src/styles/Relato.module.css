@@ -1,0 +1,45 @@
+.relato {
+  background-color: var(--secundaria);
+  color: var(--complementar);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.relato svg {
+  padding: 1em;
+  cursor: pointer;
+}
+
+.relato .wrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.relato figure {
+  box-shadow: var(--sombra);
+  width: 20em;
+  border: 1px solid var(--complementar);
+  border-radius: 10px;
+  transition: var(--transicao);
+}
+
+.relato figure:hover {
+  background-color: var(--complementar);
+  color: var(--primaria);
+}
+
+.relato img {
+  border-radius: 10px;
+  height: 15em;
+  width: 100%;
+}
+
+.relato figure figcaption,
+.relato figure p {
+  text-align: center;
+  padding: 0.6em;
+  letter-spacing: 0.1em;
+}

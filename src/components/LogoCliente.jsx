@@ -2,7 +2,7 @@
 const LogoCliente = ({ logo, titulo }) => {
   return (
     <>
-      <figure className="img-cliente">
+      <figure>
         <img src={logo} alt={titulo} />
         <figcaption>{titulo}</figcaption>
       </figure>

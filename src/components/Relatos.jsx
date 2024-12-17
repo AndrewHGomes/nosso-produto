@@ -1,9 +1,15 @@
 import RelatoCliente from "./RelatoCliente";
+import relato from "../styles/Relato.module.css";
 
 import wolverine from "../assets/wolverine.jpg";
 import ciclope from "../assets/ciclope.jpg";
 import vampira from "../assets/vampira.jpg";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowLeftLong,
+  faArrowRightLong,
+} from "@fortawesome/free-solid-svg-icons";
 
 const clientes = [
   {
@@ -47,20 +53,16 @@ const Relatos = () => {
 
   return (
     <>
-      <section id="relatos-section">
+      <section className={relato.relato}>
         <h2>O que dizem nossos clientes</h2>
-        <div>
-          <p className="esquerda" onClick={handleSlideMenos}>
-            &#10148;
-          </p>
+        <div className={relato.wrapper}>
+          <FontAwesomeIcon onClick={handleSlideMenos} icon={faArrowLeftLong} />
           <RelatoCliente
             img={clientes[indice].url}
             nome={clientes[indice].nome}
             descricao={clientes[indice].descricao}
           />
-          <p className="direita" onClick={handleSlideMais}>
-            &#10148;
-          </p>
+          <FontAwesomeIcon onClick={handleSlideMais} icon={faArrowRightLong} />
         </div>
       </section>
     </>

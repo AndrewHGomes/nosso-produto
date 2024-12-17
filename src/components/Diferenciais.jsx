@@ -1,8 +1,10 @@
+import diferencial from "../styles/Diferencial.module.css";
+
 const Diferenciais = () => {
   return (
-    <section id="diferenciais-section">
+    <section className={diferencial.diferencial}>
       <h2>Nossos Diferenciais</h2>
-      <div className="diferenciais">
+      <div className={diferencial.diferenciais}>
         <div>
           <p>ícone1</p>
           <p>Diferencial1</p>

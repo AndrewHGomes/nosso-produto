@@ -1,0 +1,41 @@
+.nossosClientes {
+  background-color: var(--secundaria);
+  color: var(--complementar);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+}
+
+.nossosClientes div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2.5em;
+}
+
+.nossosClientes figure {
+  border: 1px solid var(--complementar);
+  border-radius: 5px;
+  width: 8em;
+  text-align: center;
+  transition: var(--transicao);
+  box-shadow: var(--sombra);
+}
+
+.nossosClientes img {
+  border-radius: 5px;
+  height: 5em;
+  width: 100%;
+}
+
+.nossosClientes figcaption {
+  padding: 0.5em;
+}
+
+.nossosClientes figure:hover {
+  background-color: var(--complementar);
+  color: var(--primaria);
+  border-color: var(--primaria);
+  transform: scale(1.3);
+}
