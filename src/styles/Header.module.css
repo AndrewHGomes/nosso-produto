@@ -34,3 +34,24 @@
 .header nav li:hover {
   border-color: #fff;
 }
+
+@media (max-width: 800px) {
+  .header h1 {
+    display: none;
+  }
+
+  .header img {
+    width: 3em;
+  }
+}
+
+@media (max-width: 600px) {
+  .header img {
+    width: 2em;
+  }
+
+  .header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}

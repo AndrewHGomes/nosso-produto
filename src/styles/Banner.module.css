@@ -44,3 +44,14 @@
   border-radius: 5px;
   box-shadow: var(--sombra);
 }
+
+@media (max-width: 900px) {
+  .banner {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .banner img {
+    width: 15em;
+  }
+}

@@ -8,7 +8,7 @@ import footer from "../styles/Footer.module.css";
 const Footer = () => {
   return (
     <footer className={footer.footer}>
-      <div className="contatos">
+      <div className={footer.contatos}>
         <ul>
           <li>
             <a target="_blank" href="mailto:bruno@daffari.com.br">
@@ -31,19 +31,24 @@ const Footer = () => {
       <h3>Daffari Sistemas de Informação &copy; 2025</h3>
       <div>
         <h4>Fale conosco</h4>
-        <form>
+        <form action="https://formsubmit.co/bruno@daffari.com.br" method="POST">
           <label>
             <span>Nome completo:</span>
-            <input type="text" />
+            <input type="text" placeholder="Digite seu nome..." required />
           </label>
           <label>
-            <span>Contato:</span>
-            <input type="text" />
+            <span>Email:</span>
+            <input type="email" placeholder="Digite seu email..." required />
           </label>
           <label>
             <span>Assunto:</span>
-            <textarea name="" id=""></textarea>
+            <textarea
+              name="assunto"
+              id="assunto"
+              placeholder="Assunto..."
+            ></textarea>
           </label>
+          <button>Enviar</button>
         </form>
       </div>
     </footer>

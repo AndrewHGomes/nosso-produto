@@ -39,3 +39,23 @@
   text-align: center;
   margin-top: 1em;
 }
+
+@media (max-width: 480px) {
+  .servicos h3 {
+    text-align: center;
+    font-size: 0.9em;
+  }
+
+  .servicos .box {
+    width: 85%;
+  }
+
+  .servicos .ativo {
+    line-height: 1.5em;
+    margin-top: 0.5em;
+  }
+
+  .servicos svg {
+    display: none;
+  }
+}

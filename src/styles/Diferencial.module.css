@@ -16,3 +16,16 @@
   display: flex;
   gap: 1em;
 }
+
+@media (max-width: 900px) {
+  .diferenciais {
+    gap: 2em;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 500px) {
+  .diferencial h2 {
+    text-align: center;
+  }
+}
