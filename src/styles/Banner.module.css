@@ -1,7 +1,7 @@
 .banner {
   background-color: var(--complementar);
   color: var(--primaria);
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 

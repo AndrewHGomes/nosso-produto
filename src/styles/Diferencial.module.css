@@ -13,8 +13,20 @@
 }
 
 .diferenciais div {
+  padding: 1em;
+  border: 1px solid transparent;
+  border-radius: 5px;
   display: flex;
-  gap: 1em;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+  box-shadow: var(--sombra);
+  transition: var(--transicao);
+}
+
+.diferenciais div:hover {
+  border-color: var(--primaria);
+  transform: rotate(3deg);
 }
 
 @media (max-width: 900px) {

@@ -1,4 +1,11 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import diferencial from "../styles/Diferencial.module.css";
+import {
+  faBasketShopping,
+  faDollar,
+  faReceipt,
+  faSackDollar,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Diferenciais = () => {
   return (
@@ -6,20 +13,24 @@ const Diferenciais = () => {
       <h2>Nossos Diferenciais</h2>
       <div className={diferencial.diferenciais}>
         <div>
-          <p>ícone1</p>
-          <p>Diferencial1</p>
+          <FontAwesomeIcon icon={faReceipt} />
+          <h3>NFC-e | NF-e</h3>
+          <p>notas fiscais</p>
         </div>
         <div>
-          <p>ícone2</p>
-          <p>Diferencial2</p>
+          <FontAwesomeIcon icon={faDollar} />
+          <h3>Cabe</h3>
+          <p>no seu bolso</p>
         </div>
         <div>
-          <p>ícone3</p>
-          <p>Diferencial3</p>
+          <FontAwesomeIcon icon={faBasketShopping} />
+          <h3>Cadastramos</h3>
+          <p>seus produtos</p>
         </div>
         <div>
-          <p>ícone4</p>
-          <p>Diferencial4</p>
+          <FontAwesomeIcon icon={faSackDollar} />
+          <h3>Sem Multa</h3>
+          <p>de cancelamento</p>
         </div>
       </div>
     </section>

@@ -31,7 +31,10 @@ const Footer = () => {
       <h3>Daffari Sistemas de Informação &copy; 2025</h3>
       <div>
         <h4>Fale conosco</h4>
-        <form action="https://formsubmit.co/bruno@daffari.com.br" method="POST">
+        <form
+          action="https://formsubmit.co/andrewvianigomes@gmail.com"
+          method="POST"
+        >
           <label>
             <span>Nome completo:</span>
             <input type="text" placeholder="Digite seu nome..." required />
@@ -48,6 +51,11 @@ const Footer = () => {
               placeholder="Assunto..."
             ></textarea>
           </label>
+          <input
+            type="hidden"
+            name="_next"
+            value="https://localhost:5173/Obrigado"
+          ></input>
           <button>Enviar</button>
         </form>
       </div>

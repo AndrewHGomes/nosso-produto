@@ -33,6 +33,7 @@ footer {
 }
 
 section {
+  width: 100%;
   display: flex;
   padding: var(--padding-section);
 }
