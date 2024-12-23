@@ -23,8 +23,10 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faPhone} />
-            <span>(19) 3608-3001</span>
+            <a href="tel:+5501936083001">
+              <FontAwesomeIcon icon={faPhone} />
+              <span>(19) 3608-3001</span>
+            </a>
           </li>
         </ul>
       </div>

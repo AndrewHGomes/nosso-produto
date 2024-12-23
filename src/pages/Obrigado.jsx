@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import imgLogo from "../../public/daffari.jpeg";
 import obrigado from "../styles/Obrigado.module.css";
 
@@ -10,8 +11,11 @@ const Obrigado = () => {
         Muito <br />
         Obrigado!!!
       </h1>
-      <img src={imgLogo} alt="Logo da Empresa" />
+      <Link to={"/"}>
+        <img src={imgLogo} alt="Logo da Empresa" />
+      </Link>
       <h3>Nós da {nome} agradecemos o seu contato.</h3>
+      <p>Clique na imagem para voltar à página inicial.</p>
     </section>
   );
 };

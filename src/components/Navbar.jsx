@@ -20,8 +20,10 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <FontAwesomeIcon icon={faPhone} />
-          <span>(19) 3608-3001</span>
+          <a target="_blank" href="tel:+5501936083001">
+            <FontAwesomeIcon icon={faPhone} />
+            <span>(19) 3608-3001</span>
+          </a>
         </li>
       </ul>
     </nav>
