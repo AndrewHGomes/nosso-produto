@@ -107,6 +107,11 @@ const clientes = [
     url: "../../public/gaucho.png",
     titulo: "Gaúcho",
   },
+  {
+    id: 22,
+    url: "../../public/gauchinho.jpg",
+    titulo: "Gauchinho",
+  },
 ];
 
 const Clientes = () => {

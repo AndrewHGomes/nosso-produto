@@ -9,7 +9,6 @@ const Header = () => {
       <a href="/">
         <img src={imgLogo} alt="Logo Empresa" />
       </a>
-      <h1>Nosso Produto</h1>
       <Navbar />
     </header>
   );

@@ -1,5 +1,5 @@
 .header img {
-  width: 4em;
+  width: 6em;
   border-radius: 5px;
   transition: var(--transicao);
   border: 1px solid var(--complementar);
@@ -36,18 +36,14 @@
 }
 
 @media (max-width: 800px) {
-  .header h1 {
-    display: none;
-  }
-
   .header img {
-    width: 3em;
+    width: 4em;
   }
 }
 
 @media (max-width: 600px) {
   .header img {
-    width: 2em;
+    width: 3em;
   }
 
   .header nav ul {

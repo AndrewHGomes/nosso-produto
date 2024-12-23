@@ -51,6 +51,7 @@ const Footer = () => {
               name="assunto"
               id="assunto"
               placeholder="Assunto..."
+              required
             ></textarea>
           </label>
           <input
