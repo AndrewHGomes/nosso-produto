@@ -21,6 +21,11 @@ body {
   scroll-behavior: smooth;
 }
 
+ul li,
+button {
+  cursor: pointer;
+}
+
 header,
 footer {
   background-image: url("../../public/fundo3.jpg");

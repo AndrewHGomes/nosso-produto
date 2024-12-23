@@ -72,6 +72,41 @@ const clientes = [
     url: "../../public/kisushi.png",
     titulo: "Ki Sushi",
   },
+  {
+    id: 15,
+    url: "../../public/ronaldo.png",
+    titulo: "Boteco do Ronaldo",
+  },
+  {
+    id: 16,
+    url: "../../public/cantinhopizza.png",
+    titulo: "Cantinho da Pizza",
+  },
+  {
+    id: 17,
+    url: "../../public/alexander.png",
+    titulo: "Alexander Lanches",
+  },
+  {
+    id: 18,
+    url: "../../public/trentin.png",
+    titulo: "Bar Trentin",
+  },
+  {
+    id: 19,
+    url: "../../public/salome.jpg",
+    titulo: "La Salomé",
+  },
+  {
+    id: 20,
+    url: "../../public/kaneco.jpg",
+    titulo: "Kaneco",
+  },
+  {
+    id: 21,
+    url: "../../public/gaucho.png",
+    titulo: "Gaúcho",
+  },
 ];
 
 const Clientes = () => {

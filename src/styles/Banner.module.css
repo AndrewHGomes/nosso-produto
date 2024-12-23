@@ -1,4 +1,5 @@
 .banner {
+  text-align: center;
   background-color: var(--complementar);
   color: var(--primaria);
   justify-content: space-between;
