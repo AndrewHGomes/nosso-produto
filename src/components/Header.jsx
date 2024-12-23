@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import header from "../styles/Header.module.css";
 
-import imgLogo from "../assets/daffari.jpeg";
+import imgLogo from "../../public/daffari.jpeg";
 
 const Header = () => {
   return (

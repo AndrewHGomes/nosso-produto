@@ -1,90 +1,75 @@
 import LogoCliente from "./LogoCliente";
 import nossosClientes from "../styles/Clientes.module.css";
 
-import pastelvis from "../assets/pastelvis.png";
-import donarosa from "../assets/donarosa.png";
-import flordesal from "../assets/flordesal.jpeg";
-import raribbs from "../assets/raribbs.png";
-import texanos from "../assets/texanos.png";
-import tiazilda from "../assets/tiazilda.png";
-import taverna from "../assets/taverna.png";
-import sabornamesa from "../assets/sabornamesa.png";
-import baios from "../assets/baios.png";
-import quintaldochopp from "../assets/quintaldochopp.jpg";
-import verdadeirosabor from "../assets/verdadeirosabor.png";
-import pastelicia from "../assets/pastelicia.png";
-import nafornalha from "../assets/nafornalha.png";
-import kisushi from "../assets/kisushi.png";
-
 const clientes = [
   {
     id: 1,
-    url: pastelvis,
+    url: "../../public/pastelvis.png",
     titulo: "Pastelvis",
   },
   {
     id: 2,
-    url: donarosa,
+    url: "../../public/donarosa.png",
     titulo: "Donarosa",
   },
   {
     id: 3,
-    url: flordesal,
+    url: "../../public/flordesal.jpeg",
     titulo: "Flor de Sal",
   },
   {
     id: 4,
-    url: raribbs,
+    url: "../../public/raribbs.png",
     titulo: "Raribb's",
   },
   {
     id: 5,
-    url: texanos,
+    url: "../../public/texanos.png",
     titulo: "Texanos",
   },
   {
     id: 6,
-    url: tiazilda,
+    url: "../../public/tiazilda.png",
     titulo: "Tia Zilda",
   },
   {
     id: 7,
-    url: taverna,
+    url: "../../public/taverna.png",
     titulo: "Taverna",
   },
   {
     id: 8,
-    url: sabornamesa,
+    url: "../../public/sabornamesa.png",
     titulo: "Sabor na Mesa",
   },
   {
     id: 9,
-    url: baios,
+    url: "../../public/baios.png",
     titulo: "MC Baios",
   },
   {
     id: 10,
-    url: quintaldochopp,
+    url: "../../public/quintaldochopp.jpg",
     titulo: "Quintal do Chopp",
   },
   {
     id: 11,
-    url: verdadeirosabor,
+    url: "../../public/verdadeirosabor.png",
     titulo: "Verdadeiro Sabor",
   },
   {
     id: 12,
-    url: pastelicia,
+    url: "../../public/pastelicia.png",
     titulo: "Pastelícia",
   },
   {
     id: 13,
-    url: nafornalha,
+    url: "../../public/nafornalha.png",
     titulo: "Na Fornalha",
   },
   {
     id: 14,
-    url: kisushi,
+    url: "../../public/kisushi.png",
     titulo: "Ki Sushi",
   },
 ];

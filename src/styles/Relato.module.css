@@ -45,6 +45,11 @@
 }
 
 @media (max-width: 600px) {
+  .relato {
+    align-items: center;
+    justify-content: center;
+  }
+
   .relato figure {
     width: 15em;
   }

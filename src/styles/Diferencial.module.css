@@ -30,6 +30,11 @@
 }
 
 @media (max-width: 900px) {
+  .diferencial {
+    align-items: center;
+    justify-content: center;
+  }
+
   .diferenciais {
     gap: 2em;
     flex-wrap: wrap;

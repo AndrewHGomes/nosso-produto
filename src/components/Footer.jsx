@@ -24,7 +24,7 @@ const Footer = () => {
           </li>
           <li>
             <FontAwesomeIcon icon={faPhone} />
-            <span>3608-3001</span>
+            <span>(19) 3608-3001</span>
           </li>
         </ul>
       </div>
@@ -54,7 +54,7 @@ const Footer = () => {
           <input
             type="hidden"
             name="_next"
-            value="https://localhost:5173/Obrigado"
+            value="http://localhost:5173/Obrigado"
           ></input>
           <button>Enviar</button>
         </form>

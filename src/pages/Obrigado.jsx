@@ -1,4 +1,4 @@
-import imgLogo from "../assets/daffari.jpeg";
+import imgLogo from "../../public/daffari.jpeg";
 import obrigado from "../styles/Obrigado.module.css";
 
 const Obrigado = () => {

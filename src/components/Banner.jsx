@@ -1,4 +1,3 @@
-import imgBanner from "../assets/pizza-banner.jpg";
 import banner from "../styles/Banner.module.css";
 
 const Banner = () => {
@@ -13,7 +12,11 @@ const Banner = () => {
         </p>
         <button>Alguma Funcionalidade</button>
       </div>
-      <img src={imgBanner} alt="Banner dividindo pizza" id="img-banner" />
+      <img
+        src="../../public/pizza-banner.jpg"
+        alt="Banner dividindo pizza"
+        id="img-banner"
+      />
     </section>
   );
 };

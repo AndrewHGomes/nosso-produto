@@ -21,7 +21,7 @@ const Navbar = () => {
         </li>
         <li>
           <FontAwesomeIcon icon={faPhone} />
-          <span>3608-3001</span>
+          <span>(19) 3608-3001</span>
         </li>
       </ul>
     </nav>

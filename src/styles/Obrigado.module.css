@@ -1,4 +1,6 @@
 .obrigado {
+  text-align: center;
+  width: 100%;
   height: 100vh;
   background-color: var(--complementar);
   color: var(--primaria);
@@ -20,7 +22,7 @@
 }
 
 .obrigado img {
-  width: 25%;
+  width: 30%;
   border: 2px solid var(--primaria);
   border-radius: 10px;
   box-shadow: var(--sombra);
@@ -30,4 +32,10 @@
 .obrigado img:hover {
   transform: scale(1.1);
   border-color: var(--secundaria);
+}
+
+@media (max-width: 800px) {
+  .obrigado img {
+    width: 40%;
+  }
 }
