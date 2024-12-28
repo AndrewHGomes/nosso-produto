@@ -1,13 +1,13 @@
 import Navbar from "./Navbar";
 import header from "../styles/Header.module.css";
 
-import imgLogo from "../../public/daffari.jpeg";
+const url = "/daffari.jpeg";
 
 const Header = () => {
   return (
     <header className={header.header}>
       <a href="/">
-        <img src={imgLogo} alt="Logo Empresa" />
+        <img src={url} alt="Logo Empresa" />
       </a>
       <Navbar />
     </header>

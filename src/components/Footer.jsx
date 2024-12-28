@@ -6,6 +6,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import footer from "../styles/Footer.module.css";
 
 const Footer = () => {
+  const empresa = "D'affari Sistemas de Informação";
   return (
     <footer className={footer.footer}>
       <div className={footer.contatos}>
@@ -30,7 +31,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <h3>Daffari Sistemas de Informação &copy; 2025</h3>
+      <h3>{empresa} &copy; 2025</h3>
       <div>
         <h4>Fale conosco</h4>
         <form

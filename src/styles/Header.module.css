@@ -1,13 +1,9 @@
 .header img {
-  width: 6em;
+  width: 5em;
   border-radius: 5px;
   transition: var(--transicao);
   border: 1px solid var(--complementar);
   box-shadow: var(--sombra);
-}
-
-.header img:hover {
-  transform: scale(2);
 }
 
 .header nav ul {

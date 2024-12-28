@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
+  width: 90%;
 }
 
 .diferenciais div {
@@ -26,7 +26,7 @@
 
 .diferenciais div:hover {
   border-color: var(--primaria);
-  transform: rotate(3deg);
+  transform: rotate(4deg);
 }
 
 @media (max-width: 900px) {

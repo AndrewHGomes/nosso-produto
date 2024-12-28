@@ -3,9 +3,9 @@
   --secundaria: #cd853f;
   --complementar: #ffdead;
   --padding-section: 3em;
-  --transicao: 0.6s;
+  --transicao: 0.3s;
   --sombra: 2px 4px 8px #212121;
-  --background: url("../../public/fundo3.jpg");
+  --background: url("/fundo3.jpg");
 }
 
 * {
@@ -28,7 +28,7 @@ button {
 
 header,
 footer {
-  background-image: url("../../public/fundo3.jpg");
+  background-image: var(--background);
   background-size: cover;
   color: #fff;
   display: flex;

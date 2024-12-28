@@ -20,7 +20,7 @@
 
 .relato figure {
   box-shadow: var(--sombra);
-  width: 20em;
+  width: 15em;
   border: 1px solid var(--complementar);
   border-radius: 10px;
   transition: var(--transicao);
@@ -33,7 +33,7 @@
 
 .relato img {
   border-radius: 10px;
-  height: 15em;
+  height: 10em;
   width: 100%;
 }
 

@@ -29,7 +29,7 @@ const accordion = [
     id: 3,
     titulo: `Fiscal Completo`,
     icone: <FontAwesomeIcon icon={faReceipt} />,
-    texto: `A Daffari simplifica todas as demandas fiscais do seu negócio:
+    texto: `A D'affari simplifica todas as demandas fiscais do seu negócio:
             NFC-e, NF-e, Entrada e Saída de Notas, Estoque Mínimo, Robô de
             Notas, além de facilitar a vida do seu contador com a Área do
             Contador.`,

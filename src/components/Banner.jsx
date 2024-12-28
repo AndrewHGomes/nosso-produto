@@ -13,7 +13,7 @@ const Banner = () => {
         <button>Alguma Funcionalidade</button>
       </div>
       <img
-        src="../../public/pizza-banner.jpg"
+        src="/pizza-banner.jpg"
         alt="Banner dividindo pizza"
         id="img-banner"
       />
