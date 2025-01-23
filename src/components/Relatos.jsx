@@ -15,20 +15,17 @@ const clientes = [
   {
     url: wolverine,
     nome: "Wolverine",
-    descricao:
-      "Ainda bem que eles resolveram meu problema, assim não tive que cortá-los ao meio.",
+    descricao: "Relatos do cliente 1.",
   },
   {
     url: ciclope,
     nome: "Ciclope",
-    descricao:
-      "Eu ia fritá-los com meu laser, porém eles foram muito rápidos em me ajudar com meu estabelecimento.",
+    descricao: "Relatos do cliente 2.",
   },
   {
     url: vampira,
     nome: "Vampira",
-    descricao:
-      "Esse desenvolvedor web deles é muito ruim, mas fiquei com dó e decidi ficar com o produto.",
+    descricao: "Relatos do cliente 3.",
   },
 ];
 
