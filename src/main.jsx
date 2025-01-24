@@ -6,16 +6,19 @@ import "./styles/global.css";
 import App from "./pages/App.jsx";
 import Obrigado from "./pages/Obrigado.jsx";
 
-const rota = createBrowserRouter([
-  {
-    path: "/nosso-produto/",
-    element: <App />,
-  },
-  {
-    path: "/nosso-produto/obrigado",
-    element: <Obrigado />,
-  },
-]);
+const rota = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+    },
+    {
+      path: "/obrigado",
+      element: <Obrigado />,
+    },
+  ],
+  { basename: "/nosso-produto/" }
+);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
