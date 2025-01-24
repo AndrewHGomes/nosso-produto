@@ -5,7 +5,7 @@
   --padding-section: 3em;
   --transicao: 0.3s;
   --sombra: 2px 4px 8px #212121;
-  --background: url("/fundo3.jpg");
+  --background: url("../assets/fundo3.jpg");
 }
 
 * {

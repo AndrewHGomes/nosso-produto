@@ -8,11 +8,11 @@ import Obrigado from "./pages/Obrigado.jsx";
 
 const rota = createBrowserRouter([
   {
-    path: "/",
+    path: "/nosso-produto",
     element: <App />,
   },
   {
-    path: "/Obrigado",
+    path: "/nosso-produto/obrigado",
     element: <Obrigado />,
   },
 ]);

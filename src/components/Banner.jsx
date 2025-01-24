@@ -1,5 +1,7 @@
 import banner from "../styles/Banner.module.css";
 
+import bannerImg from "../assets/imgBanner.jpg";
+
 const Banner = () => {
   return (
     <section className={banner.banner}>
@@ -12,11 +14,7 @@ const Banner = () => {
         </p>
         <button>Alguma Funcionalidade</button>
       </div>
-      <img
-        src="/pizza-banner.jpg"
-        alt="Banner dividindo pizza"
-        id="img-banner"
-      />
+      <img src={bannerImg} alt="Banner dividindo pizza" id="img-banner" />
     </section>
   );
 };
