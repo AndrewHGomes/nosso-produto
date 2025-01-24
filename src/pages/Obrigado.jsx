@@ -11,7 +11,7 @@ const Obrigado = () => {
         Muito <br />
         Obrigado!!!
       </h1>
-      <Link to={"/nosso-produto/"}>
+      <Link to={"/"}>
         <img src={imgEmpresa} alt="Logo da Empresa" />
       </Link>
       <h3>Nós da {nome} agradecemos o seu contato.</h3>

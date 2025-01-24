@@ -55,7 +55,7 @@ const Footer = () => {
           <input
             type="hidden"
             name="_next"
-            value="https://agapesi.ddns.com.br/nosso-produto/"
+            value="https://nosso-produto.netlify.app/"
           ></input>
           <button>Enviar</button>
         </form>
