@@ -16,8 +16,8 @@ const rota = createBrowserRouter(
       path: "/obrigado",
       element: <Obrigado />,
     },
-  ],
-  { basename: "/nosso-produto/" }
+  ]
+  // { basename: "/nosso-produto/" }
 );
 
 createRoot(document.getElementById("root")).render(
