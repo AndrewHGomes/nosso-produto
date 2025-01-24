@@ -16,17 +16,17 @@ const clientes = [
   {
     url: wolverine,
     nome: "Wolverine",
-    descricao: "Relato do cliente 1",
+    descricao: "Relatos do cliente 1.",
   },
   {
     url: ciclope,
     nome: "Ciclope",
-    descricao: "Relato do cliente 2",
+    descricao: "Relatos do cliente 2.",
   },
   {
     url: vampira,
     nome: "Vampira",
-    descricao: "Relato do cliente 3",
+    descricao: "Relatos do cliente 3.",
   },
 ];
 
