@@ -62,7 +62,6 @@
   .footer form input,
   .footer form textarea,
   .footer button {
-    padding: 0.3em;
     font-size: 0.9em;
   }
 }
@@ -71,12 +70,6 @@
   .footer h3 {
     text-align: center;
     font-size: 0.6em;
-  }
-
-  .footer form input,
-  .footer form textarea,
-  .footer button {
-    font-size: 0.8em;
   }
 }
 
