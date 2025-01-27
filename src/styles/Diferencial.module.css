@@ -13,6 +13,7 @@
 }
 
 .diferenciais div {
+  margin: auto;
   padding: 1em;
   border: 1px solid transparent;
   border-radius: 5px;

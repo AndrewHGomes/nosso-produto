@@ -6,7 +6,7 @@ import imgEmpresa from "../assets/daffari.jpeg";
 const Header = () => {
   return (
     <header className={header.header}>
-      <a href="/nosso-produto/">
+      <a href="/">
         <img src={imgEmpresa} alt="Logo Empresa" />
       </a>
       <Navbar />
